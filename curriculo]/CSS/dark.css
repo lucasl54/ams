@@ -1,0 +1,22 @@
+:root{
+    /*modo claro*/
+    --cor-fundo: #ececec;
+    --cor-header: #004d40;
+    --cor-footer: #009688;
+    --cor-texto: #222;
+    --cor-branca: #fff;
+    --cor-borda: #cecece;
+    --cor-sobra: #ccc;
+}
+
+/*modo escuro*/
+:dark{
+     --cor-fundo: #121212;
+    --cor-header: #1f1f1f;
+    --cor-footer: #2c2c2c;
+    --cor-texto: #f1f1f1;
+    --cor-branca: #1e1e1e;
+    --cor-borda: #444;
+    --cor-sobra: #000;
+    
+}
