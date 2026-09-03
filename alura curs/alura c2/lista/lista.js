@@ -1,16 +1,14 @@
-let frutas = [laranja, limão, maçã, pera];
 const botao = document.getElementById('meuBotao');
-
-let cliques = 0;
+const lista = document.getElementById('listfrutas');
 
 botao.addEventListener('click', () => {
-    cliques++;
+
+  if (lista.style.display === 'none' || lista.style.display === "") {
+    lista.style.display = 'block';
+  } else {
+    lista.style.display = 'none';
+  }
 });
-if ( cliques > 0 ) {
- 
- botao.innerText = cliques;
-    alert ('gg')
-}   
 
         
         
