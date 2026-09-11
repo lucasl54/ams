@@ -3,12 +3,16 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-fundo: #00030c;
+    --cor-botao: #a1c9fa;
+    --font-principal: 'inter';
 }
 
 body {
     background-color: var(--cor-fundo);
     color: var(--branco-text);
-
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -20,6 +24,8 @@ body {
     background-image: url("imagens/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -28,15 +34,151 @@ body {
     grid-template-columns:50%;
 }
 
-.botao__alug {
+.container__botao {
     color: var(--branco-text);
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
-.botao2 {
+.botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-text);
 }
+
+.container__aviso {
+  font-size: 12px;
+  color: var(--cinza-secundario);
+
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.img__combo {
+    margin: 1em 0 2em 0;
+
+}
+
+.container__caixa {
+    margin: 0 9em;
+}
+
+.secundaria__img {
+    width: 40%;
+}
+
+.secundario {
+align-items: center;
+margin: 0 6em ;
+display: flex;
+gap: 10%;
+width: 100vw;
+height: 100vh;
+}
+
+.container__descricao{
+    width: 30%;  
+}
+
+.container__titulo2 {
+    font-size: 60px;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    color: var(--cinza-secundario);
+    margin-bottom: 0.1em;
+}
+
+.secu__botao {
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.dispositivos__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivo__titulo {
+    font-size: 48px;
+    color: var(--branco-text);
+}
+
+.lista__dispositivos {
+    font-size: 32px;
+    color: var(--branco-text);
+}
+
+.rodape{
+    text-align: center;
+}
+
+.rodape__logo{
+    margin: 4em 0;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    list-style-type: none;
+}
+
+.links__rod{
+    color: var(--branco-text);
+    text-decoration: none;
+    margin: 0.3em 0;
+    
+}
+
+.idioma{
+    margin-top: 5px;
+}
+
+.rodape__texto{
+
+    color: var(--cinza-secundario);
+}
+
+.text_1{
+    margin: 2em 0;
+}
+
+.text_2 {
+    display: block;
+    width: 100%;
+   max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links__rod:hover{
+    color: var(--botao-azul);
+}
+
+.links__rod:active{
+    color: purple;
+}
+
+.container__botao:hover{
+    background-color: var(--cor-botao);
+    color: var(--cor-fundo);
+}
+
+
+
+
+    
